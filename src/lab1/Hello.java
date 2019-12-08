@@ -8,7 +8,7 @@ public class Hello {
         System.out.println("MIT");
         System.out.println("Faculty o Management Technology");
         System.out.println("Saiyai");
-        System.out.println("Suratthani");
+       
     }//main
 
 }//class
