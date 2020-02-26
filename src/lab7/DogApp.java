@@ -2,7 +2,7 @@ package lab7;
 
 public class DogApp {
     public static void main(String[] args) {
-        // create object สร้างวัตถุ
+        // create object
         //1. ใช้ default constructor
         Dog dog1 = new Dog();
 
