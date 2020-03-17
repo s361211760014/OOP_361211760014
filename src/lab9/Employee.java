@@ -1,22 +1,21 @@
 package lab9;
 
 public class Employee {
-
     private int empID;
     private String name;
     private String position;
-    private double sarary;
+    private double salary;
+
     //constructor
 
-    public Employee(int empID, String name, String position, double sarary) {
+    public Employee(int empID, String name, String position, double salary) {
         this.empID = empID;
         this.name = name;
         this.position = position;
-        this.sarary = sarary;
+        this.salary = salary;
     }
 
-
-    //
+    //getter and setter
 
     public int getEmpID() {
         return empID;
@@ -42,16 +41,15 @@ public class Employee {
         this.position = position;
     }
 
-    public double getSarary() {
-        return sarary;
+    public double getSalary() {
+        return salary;
     }
 
-    public void setSarary(double sarary) {
-        this.sarary = sarary;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
-    //
-
+    //toString
 
     @Override
     public String toString() {
@@ -59,7 +57,7 @@ public class Employee {
                 "empID=" + empID +
                 ", name='" + name + '\'' +
                 ", position='" + position + '\'' +
-                ", sarary=" + sarary +
+                ", salary=" + salary +
                 '}';
     }
 }
